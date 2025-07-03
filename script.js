@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // This is a basic setup. For a real application, you'd want more precise calculations
   // to ensure the marker lands exactly in the middle of a segment.
   // For 8 segments, each is 45 degrees (360 / 8).
-  // The min/max degrees are approximate for demonstration purposes.
+  // The min/max degrees are approximate for demonstration purposes, ....
   const degrees = [
     { value: "10% OFF", min: 0, max: 44.9 }, // Segment 1
     { value: "25% OFF", min: 45, max: 89.9 }, // Segment 2
